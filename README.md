@@ -1,15 +1,7 @@
-Welcome to your new dbt project!
+# Election Fund Raising Analysis
+This project delivers a scalable ELT pipeline built with Snowflake and dbt to process and analyze FEC (Federal Election Commission) government election data. It enables efficient transformation of raw fundraising data into structured insights, powering dashboards and reports that uncover electoral trends.
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Notes:
+Data comes from official FEC election data sources.
+Snowflake credentials (account, user, warehouse, database) must be configured in your profiles.yml for dbt.
+Large datasets may require incremental dbt models for scalability.
